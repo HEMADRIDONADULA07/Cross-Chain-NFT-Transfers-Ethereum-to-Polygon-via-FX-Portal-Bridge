@@ -32,12 +32,12 @@ After deploying the address will generate. So, copy that address into `contarctA
 
  
 The script will deploy the contract 
-### Batch Mint NFTs
+### Mint NFTs
 
-Run the following command to batch-mint NFTs using the deployed ERC721 contract:
+Run the following command to Mint NFTs using the deployed ERC721 contract:
 
 ``` shell
-npx hardhat run scripts/batchMint.js --network goerli
+npx hardhat run scripts/Mint.js --network goerli
 ```
 
 The script will mint the specified number of NFTs and assign them to your address.
@@ -47,7 +47,7 @@ The script will mint the specified number of NFTs and assign them to your addres
 Run the following commands to approve and deposit the minted NFTs from Ethereum to the Polygon Mumbai network using the FxPortal Bridge:
 
 ```shell
-npx hardhat run scripts/approveDeposit.js --network goerli
+npx hardhat run scripts/approve.js --network goerli
 ```
 
 
