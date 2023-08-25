@@ -28,7 +28,7 @@ Before deploying, make sure to rename ".env.example" to ".env" and provide your 
 npx hardhat run scripts/deploy.js --network goerli 
 ```
 ## NOTE:
-After deploying the address will generate. So, copy that address into `contarctAddress.js`(stored in metadata folder) and also in `batchMint.js`(stored in scripts folder)
+After deploying the address will generate. So, copy that address into `contarctAddress.js`(stored in metadata folder) and also in `Mint.js`(stored in scripts folder)
 
  
 The script will deploy the contract 
